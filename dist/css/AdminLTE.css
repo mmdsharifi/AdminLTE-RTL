@@ -4426,3 +4426,6 @@ table.text-center th {
 ul.wysihtml5-toolbar > li {
   float: right !important;
 }
+.chat .item > .message {
+  margin-right: 55px;
+}
