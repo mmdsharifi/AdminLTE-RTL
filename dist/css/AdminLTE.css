@@ -21,7 +21,7 @@ body {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'WYekan', 'Helvetica Neue', Helvetica, Atahoma;
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
@@ -141,7 +141,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'WMitra', sans-serif;
+  font-weight: bold;
 }
 /* General Links */
 a {
@@ -440,12 +441,6 @@ a:focus {
     -o-transform: translate(231px, 0);
     transform: translate(231px, 0);
   }
-  .sidebar-open .main-sidebar .main-sidebar,
-  .sidebar-open .left-side .main-sidebar,
-  .sidebar-open .main-sidebar .left-side,
-  .sidebar-open .left-side .left-side {
-    right: -230px;
-  }
 }
 .sidebar {
   padding-bottom: 10px;
@@ -476,7 +471,7 @@ a:focus {
   padding: 5px 5px 5px 15px;
   line-height: 1;
   position: absolute;
-  left: 55px;
+  right: 55px;
 }
 .user-panel > .info > p {
   font-weight: 600;
