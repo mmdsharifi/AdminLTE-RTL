@@ -35,7 +35,10 @@
   }
   .sidebar-open & {
     @media (max-width: @screen-xs-max) {
-      .translate(0, 0);
+      .translate(231px, 0);
+      .main-sidebar, .left-side{
+          right :-230px;
+      }
     }
   }
 }

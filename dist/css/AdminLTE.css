@@ -73,7 +73,7 @@ body {
   .content-wrapper,
   .right-side,
   .main-footer {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media (min-width: 768px) {
@@ -81,16 +81,6 @@ body {
   .sidebar-collapse .right-side,
   .sidebar-collapse .main-footer {
     margin-right: 0;
-  }
-}
-@media (max-width: 767px) {
-  .sidebar-open .content-wrapper,
-  .sidebar-open .right-side,
-  .sidebar-open .main-footer {
-    -webkit-transform: translate(230px, 0);
-    -ms-transform: translate(230px, 0);
-    -o-transform: translate(230px, 0);
-    transform: translate(230px, 0);
   }
 }
 .content-wrapper,
@@ -445,10 +435,16 @@ a:focus {
 @media (max-width: 767px) {
   .sidebar-open .main-sidebar,
   .sidebar-open .left-side {
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
-    transform: translate(0, 0);
+    -webkit-transform: translate(231px, 0);
+    -ms-transform: translate(231px, 0);
+    -o-transform: translate(231px, 0);
+    transform: translate(231px, 0);
+  }
+  .sidebar-open .main-sidebar .main-sidebar,
+  .sidebar-open .left-side .main-sidebar,
+  .sidebar-open .main-sidebar .left-side,
+  .sidebar-open .left-side .left-side {
+    right: -230px;
   }
 }
 .sidebar {
@@ -4428,4 +4424,10 @@ ul.wysihtml5-toolbar > li {
 }
 .chat .item > .message {
   margin-right: 55px;
+}
+@media (max-width: 767px) {
+  .main-sidebar,
+  .left-side {
+    right: -230px;
+  }
 }

@@ -56,7 +56,7 @@ body {
     margin-left: 0;
   }
   @media (max-width: @screen-xs-max) {
-    margin-left: 0;
+    margin-right: 0;
   }
   //When opening the sidebar on large screens
   .sidebar-collapse & {
@@ -67,7 +67,7 @@ body {
   //When opening the sidebar on small screens
   .sidebar-open & {
     @media (max-width: @screen-xs-max) {
-      .translate(@sidebar-width, 0);
+      //.translate(@sidebar-width, 0);
     }
   }
 }
