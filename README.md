@@ -1,3 +1,6 @@
+>> RTL Version of AdminLTE 2.2.1
+!["AdminLTE Presentation"] (dist/img/adminLTE-.png "AdminLTE Presentation")
+
 Introduction
 ============
 
@@ -10,7 +13,7 @@ Looking for Premium Templates?
 **Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit https://almsaeedstudio.com/premium for more information.**
 
 
-!["AdminLTE Presentation"] (https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+
 
 **AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
 
