@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'WMitra';
+	src: url('MitraWeb-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WMitra';
+	src: url('MitraWeb-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WYekan';
+	src:  url('YekanWeb-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
